@@ -58,22 +58,3 @@ class mutator():
 
     def swap_list_size(self):
         return len(self.list)
-
-'''
-swaplist = swaplist()
-exchange = swaplist.swaplist_keys()
-
-swaplist.open_key_file("leet.dict")
-
-password = "password"
-mutator = mutator(password)
-print mutator.all_swap(password)
-print mutator.swap_list_size()
-'''
-'''
-print mutator.single_swap(password)
-print mutator.number_prefix(password,5,25)
-print mutator.number_suffix(password,5,25)
-print mutator.first_upper(password)
-print mutator.last_upper(password)
-'''
